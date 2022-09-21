@@ -1,0 +1,25 @@
+- Crear una applicación para listar 
+cosas por hacer y cosas ya hechas. 
+- La applicación debera mostrar un filtro para cambiar los 
+elementos desplegados en pantalla. (algo asi como un on off)
+para mostrar solo pendientes o terminados
+- Cada elemento en la lista tendra una etiqueta o texto a mostrar
+y un identificador para controlar a que elemento se le va a actualizar
+el estado
+e.g: 
+[
+  { id: uniq, description: 'Dedicarle 1 hora al dia a aprender Javascript', completed: true},
+  { id: uniq,  description: 'Tomar notas de lo que aprendo diario', completed: false}
+]
+
+En el ejemplo anterior se muestra una lista de elementos 
+cada uno de ellos tiene un valor booleano `completed` cuando es true
+el elemento sera considerado finalizado o completo de cualquier otra 
+manera sera un elemento pendiente/por hacer.
+
+- La applicacion necesitara tener un elemento input de tipo texto
+para permitirle al usuario agregar nuevos elementos a la lista
+- Cuando el usuario le de click a un elemento se movera a terminado/completo
+- Cuando el usuario de le click a un elemento terminado se movera a pendiente
+
+Éxito!. <3
